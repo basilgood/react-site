@@ -1,16 +1,13 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { Route, Link, BrowserRouter as Router } from "react-router-dom";
-// import "bootstrap/dist/css/bootstrap.css";
-// import "jquery";
-// import "bootstrap/dist/js/bootstrap";
-import "./css/normalize.css";
-import "./css/skeleton.css";
-import "./css/style.css";
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'jquery'
+import 'bootstrap/dist/js/bootstrap'
 
-import HomePage from "./home";
-import Store from "./store";
-import Cart from "./cart";
+import HomePage from './home'
+import Store from './store'
+import Cart from './cart'
 
 const routing = (
   <Router>
@@ -33,6 +30,6 @@ const routing = (
       <Route path="/cart" component={Cart} />
     </div>
   </Router>
-);
+)
 
-ReactDOM.render(routing, document.getElementById("root"));
+ReactDOM.render(routing, document.getElementById('root'))

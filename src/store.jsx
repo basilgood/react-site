@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
 
 class Store extends Component {
   render() {
-    return <div>Store</div>;
+    return <div>Store</div>
   }
 }
-export default Store;
+export default Store
