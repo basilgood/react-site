@@ -4,6 +4,8 @@ import Home from './home';
 import Navigation from './navigation';
 import Carousel from './carousel';
 import Cart from './cart';
+import 'jquery';
+import 'bootstrap/dist/js/bootstrap';
 
 class Site extends Component {
   render() {
