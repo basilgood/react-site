@@ -5,10 +5,6 @@ import ReactDOM from 'react-dom';
 // import 'jquery';
 // import 'bootstrap/dist/js/bootstrap';
 
-// import HomePage from './home';
-// import Store from './store';
-// import Cart from './cart';
-
 import App from './App';
 
 ReactDOM.render(<App />, document.getElementById('root'));
